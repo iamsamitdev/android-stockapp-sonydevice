@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MiniStockApp</string>
+
+    <!--Main Menu-->
+    <string name="nav_home">หน้าหลัก</string>
+    <string name="nav_report">รายงาน</string>
+    <string name="nav_notification">แจ้งเตือน</string>
+    <string name="nav_account">ฉัน</string>
+
+</resources>
