@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragment.tab.InstockFragment">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPagerStock"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="-50dp"
+            android:background="@color/colorPrimary" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/viewPagerStock"
+            app:tabBackground="@drawable/indicator_selector"
+            app:tabGravity="center"
+            app:tabIndicatorHeight="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/indicator"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Instock title"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Android viewpager is a widget in which user can display multiple screens in the same activity in which user can switch the screens by swiping left or right.Mainly the implementation of a viewpager will be important if the application needs tablayout which should display multiple screens. But android is not having a default widget for implementing a slider ,but we can implement slider in android with the help of a viewpager. In this tutorial we will learn how to implement a slider with indicator using a viewpager in android" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:text="Android viewpager is a widget in which user can display multiple screens in the same activity in which user can switch the screens by swiping left or right.Mainly the implementation of a viewpager will be important if the application needs tablayout which should display multiple screens. But android is not having a default widget for implementing a slider ,but we can implement slider in android with the help of a viewpager. In this tutorial we will learn how to implement a slider with indicator using a viewpager in android" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="80dp"
+                android:text="Android viewpager is a widget in which user can display multiple screens in the same activity in which user can switch the screens by swiping left or right.Mainly the implementation of a viewpager will be important if the application needs tablayout which should display multiple screens. But android is not having a default widget for implementing a slider ,but we can implement slider in android with the help of a viewpager. In this tutorial we will learn how to implement a slider with indicator using a viewpager in android" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

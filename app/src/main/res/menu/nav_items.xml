@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:icon="@android:drawable/ic_dialog_dialer"
+        android:icon="@drawable/house"
         android:id="@+id/navhome"
         android:title="@string/nav_home" />
 
     <item
-        android:icon="@android:drawable/ic_dialog_info"
+        android:icon="@drawable/graph"
         android:id="@+id/navreport"
         android:title="@string/nav_report" />
 
     <item
-        android:icon="@android:drawable/ic_dialog_email"
+        android:icon="@drawable/chat_m"
         android:id="@+id/navnotification"
         android:title="@string/nav_notification" />
 
     <item
-        android:icon="@android:drawable/ic_dialog_map"
+        android:icon="@drawable/user"
         android:id="@+id/navaccount"
         android:title="@string/nav_account" />
 
